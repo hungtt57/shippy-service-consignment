@@ -10,7 +10,7 @@ require (
 	github.com/envoyproxy/go-control-plane v0.9.5 // indirect
 	github.com/go-gl/glfw/v3.3/glfw v0.0.0-20200420212212-258d9bec320e // indirect
 	github.com/golang/groupcache v0.0.0-20200121045136-8c9f03a8e57e // indirect
-	github.com/golang/protobuf v1.4.0 // indirect
+	github.com/golang/protobuf v1.4.0
 	github.com/google/pprof v0.0.0-20200417002340-c6e0a841f49a // indirect
 	github.com/hashicorp/golang-lru v0.5.4 // indirect
 	github.com/ianlancetaylor/demangle v0.0.0-20200414190113-039b1ae3a340 // indirect
@@ -33,6 +33,7 @@ require (
 	google.golang.org/appengine v1.6.5 // indirect
 	google.golang.org/genproto v0.0.0-20200420144010-e5e8543f8aeb // indirect
 	google.golang.org/grpc v1.29.0
+	google.golang.org/protobuf v1.21.0
 	gopkg.in/check.v1 v1.0.0-20200227125254-8fa46927fb4f // indirect
 	gopkg.in/yaml.v2 v2.2.8 // indirect
 	rsc.io/sampler v1.99.99 // indirect
