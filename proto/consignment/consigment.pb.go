@@ -2,7 +2,7 @@
 // versions:
 // 	protoc-gen-go v1.21.0-devel
 // 	protoc        v3.11.4
-// source: proto/consigment/consigment.proto
+// source: proto/consignment/consignment.proto
 
 package consignment
 
@@ -443,5 +443,5 @@ var _ShippingService_serviceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "proto/consigment/consigment.proto",
+	Metadata: "proto/consignment/consignment.proto",
 }
