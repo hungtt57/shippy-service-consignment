@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f48438f-82fe-4860-ba06-8edae8189f51" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/consignment/consignment.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/proto/consignment/consignment.pb.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/consignment/consignment.proto" beforeDir="false" afterPath="$PROJECT_DIR$/proto/consignment/consignment.proto" afterDir="false" />
-    </list>
+    <list default="true" id="7f48438f-82fe-4860-ba06-8edae8189f51" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +13,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/proto/consignment/consignment.proto">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+            <state relative-caret-position="90">
+              <caret line="6" column="23" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -26,8 +22,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+            <state relative-caret-position="15">
+              <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+              <folding>
+                <element signature="e#13#230#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -39,6 +38,7 @@
       <find>RegisterShippingServiceServer</find>
       <find>CreateConsignment</find>
       <find>getConsigment</find>
+      <find>GetConsignments</find>
     </findStrings>
   </component>
   <component name="GOROOT" path="/usr/local/go" />
@@ -50,11 +50,12 @@
       <list>
         <option value="$PROJECT_DIR$/proto/consigment/consigment.proto" />
         <option value="$PROJECT_DIR$/proto/consignment/consignment.proto" />
+        <option value="$PROJECT_DIR$/Dockerfile" />
         <option value="$PROJECT_DIR$/main.go" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="808" />
@@ -71,17 +72,6 @@
             <path>
               <item name="shippy-service-consigment" type="b2602c69:ProjectViewProjectNode" />
               <item name="shippy-service-consigment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shippy-service-consigment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shippy-service-consigment" type="462c0819:PsiDirectoryNode" />
-              <item name="proto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shippy-service-consigment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shippy-service-consigment" type="462c0819:PsiDirectoryNode" />
-              <item name="proto" type="462c0819:PsiDirectoryNode" />
-              <item name="consignment" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -116,7 +106,7 @@
     <frame x="0" y="23" width="1440" height="808" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -129,7 +119,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3547486" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.20391062" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -143,16 +133,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/proto/consigment/consigment.pb.go" />
     <entry file="file://$PROJECT_DIR$/proto/consigment/consigment.proto" />
-    <entry file="file://$PROJECT_DIR$/go.mod">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proto/consignment/consignment.proto">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/proto/consignment/consignment.pb.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
@@ -160,10 +140,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/go.sum">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go.mod">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proto/consignment/consignment.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+        <state relative-caret-position="15">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <folding>
+            <element signature="e#13#230#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
